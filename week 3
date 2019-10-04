@@ -1,15 +1,11 @@
-Queue
-    像排隊的方式，先進先出，不能插隊，沒辦法點中間
-  	作業系統一次只能做一件事，才不會亂
-    
-  question
+ question
   
     push(x) -- Push element x to the back of queue.
     pop() -- Removes the element from in front of queue.
     peek() -- Get the front element.
     empty() -- Return whether the queue is empty.
   
-  answer
+ answer
     
     class MyQueue:
 
@@ -26,18 +22,16 @@ Queue
             return True
         else:
             return False
- Stack
-    像疊盤子的方式，先進後出
-	  為甚麼要有?? 因為有undo的需求(上一步)、瀏覽器回前一頁的功能
+
     
-   question
+question
    
     push(x) -- Push element x onto stack.
     pop() -- Removes the element on top of the stack.
     top() -- Get the top element.
     getMin() -- Retrieve the minimum element in the stack.
     
-  answer
+answer
   
     class MinStack:
 
