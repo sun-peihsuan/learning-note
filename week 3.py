@@ -1,9 +1,9 @@
  question
   
-    push(x) -- Push element x to the back of queue.
-    pop() -- Removes the element from in front of queue.
-    peek() -- Get the front element.
-    empty() -- Return whether the queue is empty.
+    push(x) ## Push element x to the back of queue.
+    pop() ## Removes the element from in front of queue.
+    peek() ## Get the front element.
+    empty() ## Return whether the queue is empty.
   
  answer
     
@@ -26,10 +26,10 @@
     
 question
    
-    push(x) -- Push element x onto stack.
-    pop() -- Removes the element on top of the stack.
-    top() -- Get the top element.
-    getMin() -- Retrieve the minimum element in the stack.
+    push(x) ## Push element x onto stack.
+    pop() ## Removes the element on top of the stack.
+    top() ## Get the top element.
+    getMin() ## Retrieve the minimum element in the stack.
     
 answer
   
