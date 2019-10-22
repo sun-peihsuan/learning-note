@@ -16,9 +16,11 @@ WEEK 4	  Insertion sort(插入排序作法)
 	比較時，若遇到的值比正處理的值大或相等，則將值往右移
 
 WEEK 5
+
 [HW1	  Quicksort](https://github.com/sun-peihsuan/learning-note/tree/master/HW1)
 
 WEEK 6	   Heap sort
+
 	Min heap 最頂端的root要是最小的
 	Max heap 最頂端的root要是最大的
 
