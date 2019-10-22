@@ -14,6 +14,12 @@ WEEK 4	  Insertion sort(插入排序作法)
 	依序由未排序中的第一筆(正處理的值)，插入到已排序中的適當位置
 	插入時由右而左比較，直到遇到第一個比正處理的值小的值，再插入
 	比較時，若遇到的值比正處理的值大或相等，則將值往右移
-	
+
+WEEK 5
 [HW1	  Quicksort](https://github.com/sun-peihsuan/learning-note/tree/master/HW1)
+
+WEEK 6	   Heap sort
+	Min heap 最頂端的root要是最小的
+	Max heap 最頂端的root要是最大的
+
 
