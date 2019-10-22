@@ -8,7 +8,7 @@ WEEK 3    [Queue & Stack](https://github.com/sun-peihsuan/learning-note/blob/mas
     排隊，先進先出，不能插隊，沒辦法點中間
 	作業系統一次只能做一件事，才不會亂
 
-WEEK 4	  Insertion sort(插入排序作法)
+WEEK 4	  [Insertion sort(插入排序作法)](https://github.com/sun-peihsuan/learning-note/blob/master/WEEK%204.py)
 
 	將資料分成已排序、未排序兩部份
 	依序由未排序中的第一筆(正處理的值)，插入到已排序中的適當位置
