@@ -15,9 +15,7 @@ WEEK 4	  [Insertion sort(插入排序作法)](https://github.com/sun-peihsuan/le
 	插入時由右而左比較，直到遇到第一個比正處理的值小的值，再插入
 	比較時，若遇到的值比正處理的值大或相等，則將值往右移
 
-WEEK 5
-
-	[HW1	  Quicksort](https://github.com/sun-peihsuan/learning-note/tree/master/HW1)
+WEEK 5	   [HW1	  Quicksort](https://github.com/sun-peihsuan/learning-note/tree/master/HW1)
 
 WEEK 6	   Heap sort
 
