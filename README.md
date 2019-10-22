@@ -17,7 +17,7 @@ WEEK 4	  [Insertion sort(插入排序作法)](https://github.com/sun-peihsuan/le
 
 WEEK 5
 
-[HW1	  Quicksort](https://github.com/sun-peihsuan/learning-note/tree/master/HW1)
+	[HW1	  Quicksort](https://github.com/sun-peihsuan/learning-note/tree/master/HW1)
 
 WEEK 6	   Heap sort
 
