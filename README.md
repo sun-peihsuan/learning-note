@@ -1,4 +1,4 @@
-WEEK 3    Queue & Stack
+WEEK 3    [Queue & Stack](https://github.com/sun-peihsuan/learning-note/blob/master/week%203.py)
     
     Stack 
     疊盤子，先進後出
