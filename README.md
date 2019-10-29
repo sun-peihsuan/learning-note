@@ -21,5 +21,6 @@ WEEK 6	   Heap sort
 
 	Min heap 最頂端的root要是最小的
 	Max heap 最頂端的root要是最大的
+WEEK 7	   Merge sort
 
 
