@@ -22,7 +22,9 @@ WEEK 6	   Heap sort
 	Min heap 最頂端的root要是最小的
 	Max heap 最頂端的root要是最大的
 WEEK 7	   Merge sort
+
 WEEK 8
+
 WEEK 9	   [HW3  Heapsort & Mergesort](https://github.com/sun-peihsuan/learning-note/tree/master/HW2)
 
 
