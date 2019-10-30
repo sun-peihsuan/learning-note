@@ -25,6 +25,6 @@ WEEK 7	   Merge sort
 
 WEEK 8
 
-WEEK 9	   [HW3  Heapsort & Mergesort](https://github.com/sun-peihsuan/learning-note/tree/master/HW2)
+WEEK 9	   [HW2  Heapsort & Mergesort](https://github.com/sun-peihsuan/learning-note/tree/master/HW2)
 
 
