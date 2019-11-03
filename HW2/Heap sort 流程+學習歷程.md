@@ -1,4 +1,5 @@
-一開始在寫的時候，我對Heap sort的理解是，將父節點與子節點做比較，若是父節點比左邊的節點小，交換，
+我對Heap sort的理解是(最小的當root)，將父節點與子節點做比較，若是父節點比子節點大，交換，若是父節點比子節點小則不變。
+總結來說就是每次排完序後，最小的一定在最上面，將root提出後，把尾端的拉到root的位置，在重新做一次排序，一職做到結束就完成了。
 
 ![image](https://github.com/sun-peihsuan/learning-note/blob/master/image/1.jpg?)
 
