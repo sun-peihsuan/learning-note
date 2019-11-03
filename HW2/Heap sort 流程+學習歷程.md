@@ -5,7 +5,7 @@
 
   	第一張和第二張圖，是初期時的想法，但是在把gg裡的數字加到s裡時，沒有想到最後gg裡面會是空值，導致錯誤。
 
- 	 	![image](https://github.com/sun-peihsuan/learning-note/blob/master/image/1.jpg?)
+ 	![image](https://github.com/sun-peihsuan/learning-note/blob/master/image/1.jpg?)
 
   	![image](https://github.com/sun-peihsuan/learning-note/blob/master/image/2.jpg?)
 
