@@ -7,7 +7,7 @@
 
 ![image](https://github.com/sun-peihsuan/learning-note/blob/master/image/2.jpg?)
 
-在第三張圖的部分，回傳gg，確認gg到最後會是空值，並且對將gg裡的數加進s時多加了一個"gg的長度大於1"條件，
+在第三張圖的部分，回傳gg，確認gg到最後會是空值，並且對gg要再跑一次排序時多加了一個"gg的長度大於1"條件，
 
 ![image](https://github.com/sun-peihsuan/learning-note/blob/master/image/3.jpg?)
 
