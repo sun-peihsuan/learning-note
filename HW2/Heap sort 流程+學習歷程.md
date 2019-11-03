@@ -11,6 +11,12 @@
 
 ![image](https://github.com/sun-peihsuan/learning-note/blob/master/image/3.jpg?)
 
+最後一張圖，是將第三張圖，回傳gg部分改成回傳s，但是卻只有回傳第一個值。
+
 ![image](https://github.com/sun-peihsuan/learning-note/blob/master/image/4.jpg?)
+
+後來將s=[]這部分提到def之外，就解決了最後一張圖只能回傳一個值的問題。
+
+但是會有個小問題，就是跑完一次就得重新跑一次def跟s=[]，不然在s=[]這部分會一直將前面的跑過一次的數字加下去。
 
 參考網站: https://www.geeksforgeeks.org/python-program-for-heap-sort/
