@@ -22,7 +22,10 @@
 但是會有個小問題，就是跑完一次就得重新跑一次def跟s=[ ]，不然在s=[ ]這部分會一直將前面的跑過一次的數字加下去。
 
 之後因為要改成規定的格式，沒有辦法直接在def之外加一個s=[ ] ，所以上網查後有人建議用再多加一個_ _int_ _在前方。
+解決了上述問題
 
 ---流程圖----------
 
-參考網站: https://www.geeksforgeeks.org/python-program-for-heap-sort/
+參考網站(1): https://www.geeksforgeeks.org/python-program-for-heap-sort/
+參考網站(2): https://stackoverflow.com/questions/46299570/nameerror-name-s-is-not-defined/46299673
+
