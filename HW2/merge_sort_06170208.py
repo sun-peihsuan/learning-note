@@ -27,3 +27,6 @@ class Solution(object):
             a=r[0]
             b=[int(i) for i in str(a)]
             return b+self.ms(r[1:],l)
+
+        
+        
