@@ -75,6 +75,7 @@ def ms(self, l,r):
 -------------------------------------------------------------流程圖------------------------------------------------------------------
 ![image](https://github.com/sun-peihsuan/learning-note/blob/master/image/merge_sort.jpg)
 
+------------------------------------------------------------------------------------------------------------------------------------
 參考網站(1): https://www.geeksforgeeks.org/merge-sort/
 
 參考網站(2): https://www.geeksforgeeks.org/python-program-for-merge-sort/
