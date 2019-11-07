@@ -17,13 +17,13 @@ class Solution(object):
     def ms(self, l,r):
         if len(l)==0:
             return r
-        elif len(r)==0:
+        if len(r)==0:
             return l
-        elif l[0]<r[0]:
+        if l[0]<r[0]:
             a=l[0]
             b=[int(i) for i in str(a)]
             return b+self.ms(l[1:],r)
-        else:
+        if l[0]>r[0]:
             a=r[0]
             b=[int(i) for i in str(a)]
             return b+self.ms(r[1:],l)
