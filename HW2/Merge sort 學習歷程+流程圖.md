@@ -15,20 +15,16 @@ def m(gg):
 這一段就是在進行list分半的程式碼。
 ```Python
 def ms(ld,rd):
-        if len(ld)==0:
-            return rd
-        if len(rd)==0:
-            return ld
         if ld[0]<rd[0]:
-            return [ld[0]]+ms(ld[1:]+rd)    <------
+            return [ld[0]]+ms(ld[1:]+rd)    <<<<<<
         if ld[0]>rd[0]:
-            return [rd[0]]+ms(rd[0]+ld) <------
+            return [rd[0]]+ms(rd[0]+ld) <<<<<<
 ```
 這部分就是排序並合併的動作，一開始我並沒有考慮到，若是左邊或是右邊其中一個的長度較短，造成沒辦法比較的情況。
 
 還有就是在箭頭的部分，因為int無法和str加在一起。
 
-解決方式就是在前方加上a=l[0](r[0])   b=[int(i) for i in str(a)]去將int轉成str。變成下列樣子。
+解決方式就是在前方加上a=l[0] (r[0])   b=[int(i) for i in str(a)]去將int轉成str。變成下列樣子。
 ```Python
 def ms(self, l,r):
         if len(l)==0:
