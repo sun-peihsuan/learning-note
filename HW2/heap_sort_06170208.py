@@ -2,7 +2,6 @@ class Solution(object):
     def __init__(self):
         self.s = []
     def heap_sort(self,nums):
-        global s
         n=len(nums)
    
         for i in range(n,-1,-1):
