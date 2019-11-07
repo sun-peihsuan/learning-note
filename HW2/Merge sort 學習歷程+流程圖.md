@@ -19,12 +19,15 @@ def ms(ld,rd):
             return rd
         elif len(rd)==0:
             return ld
-        elif ld[0]<ed[0]:
+        if ld[0]<rd[0]:
             return [ld[0]]+ms(ld[1:]+rd)
-        else:
+        if ld[0]>rd[0]:
             return [rd[0]]+ms(rd[0]+ld)
 ```
-這部分就是在行排序並合併的動作，一開始我並沒有考慮到，若是左邊或是右邊其中一個的長度較短，造成沒辦法比較的情況，
+這部分就是在行排序並合併的動作，一開始我並沒有考慮到，若是左邊或是右邊其中一個的長度較短，造成沒辦法比較的情況。
+
+還有就是在return [ld[0]]+ms(ld[1:]+rd)及return [rd[0]]+ms(rd[0]+ld)部分，因為int無法和str加在一起
+
 ---流程圖----------
 
 參考網站(1): https://www.geeksforgeeks.org/merge-sort/
