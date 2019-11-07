@@ -73,7 +73,7 @@ def ms(self, l,r):
 最後因為要符合規定，用class的方式交作業，所以在每一個呼叫def的前方都加上了self.。
 
 -------------------------------------------------------------流程圖------------------------------------------------------------------
-![image](https://github.com/sun-peihsuan/learning-note/blob/master/image/merge%20sort.jpg)
+![image](https://github.com/sun-peihsuan/learning-note/blob/master/image/merge_sort.jpg)
 
 參考網站(1): https://www.geeksforgeeks.org/merge-sort/
 
