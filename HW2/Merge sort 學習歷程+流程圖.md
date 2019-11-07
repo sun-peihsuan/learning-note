@@ -17,18 +17,33 @@ def m(gg):
 def ms(ld,rd):
         if len(ld)==0:
             return rd
-        elif len(rd)==0:
+        if len(rd)==0:
             return ld
         if ld[0]<rd[0]:
-            return [ld[0]]+ms(ld[1:]+rd)
+            return [ld[0]]+ms(ld[1:]+rd)    <------
         if ld[0]>rd[0]:
-            return [rd[0]]+ms(rd[0]+ld)
+            return [rd[0]]+ms(rd[0]+ld) <------
 ```
 這部分就是排序並合併的動作，一開始我並沒有考慮到，若是左邊或是右邊其中一個的長度較短，造成沒辦法比較的情況。
 
-還有就是在return [ld[0]]+ms(ld[1:]+rd)及return [rd[0]]+ms(rd[0]+ld)部分，因為int無法和str加在一起。
+還有就是在箭頭的部分，因為int無法和str加在一起。
 
-解決方式就是在前方加上a=l[0](r[0])   b=[int(i) for i in str(a)]去將int轉成str。
+解決方式就是在前方加上a=l[0](r[0])   b=[int(i) for i in str(a)]去將int轉成str。變成下列樣子。
+```Python
+def ms(self, l,r):
+        if len(l)==0:
+            return r
+        if len(r)==0:
+            return l
+        if l[0]<r[0]:
+            a=l[0]
+            b=[int(i) for i in str(a)]
+            return b+self.ms(l[1:],r)
+        if l[0]>r[0]:
+            a=r[0]
+            b=[int(i) for i in str(a)]
+            return b+self.ms(r[1:],l)
+```
 
 ---流程圖----------
 
