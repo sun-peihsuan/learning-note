@@ -53,7 +53,6 @@ def ms(ld,rd):
             
             a=r[0]      
             b=[int(i) for i in str(a)]      
-            
 ```
 將int轉成str。變成下列樣子。箭頭是新增的部分。
 ```Python
@@ -71,9 +70,12 @@ def ms(self, l,r):
             b=[int(i) for i in str(a)]      <<<
             return b+self.ms(r[1:],l)
 ```
+最後因為要符合規定，用class的方式交作業，所以在每一個呼叫def的前方都加上了self.。
 
 -------------------------------------------------------------流程圖------------------------------------------------------------------
 
 參考網站(1): https://www.geeksforgeeks.org/merge-sort/
 
 參考網站(2): https://www.geeksforgeeks.org/python-program-for-merge-sort/
+
+參考網站(3): https://newaurora.pixnet.net/blog/post/224658923-%E5%90%88%E4%BD%B5%E6%8E%92%E5%BA%8F%E6%B3%95---%E4%BD%BF%E7%94%A8python
