@@ -27,6 +27,7 @@
 ------------------------------------------------------------流程圖-------------------------------------------------------------
 ![image](https://github.com/sun-peihsuan/learning-note/blob/master/image/heap%20sort.jpg)
 
+-------------------------------------------------------------------------------------------------------------------------------
 參考網站(1): https://www.geeksforgeeks.org/python-program-for-heap-sort/
 
 參考網站(2): https://stackoverflow.com/questions/46299570/nameerror-name-s-is-not-defined/46299673
