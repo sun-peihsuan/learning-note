@@ -3,7 +3,7 @@
 -----Insert-----
 
 簡單來說，Insert的想法是，先看root存不存在，如果不存在就把插入的值當作root，存在就先跟root的比大小，比root大就往右走，比root小往左走。
-再來就是看root.left或是root.right存不存在，如果不存在就把插入的值當作root.left或是root.right，大概是照這個概念一直揍下去，直到可以把值插入為止
+再來就是看root.left或是root.right存不存在，如果不存在就把插入的值當作root.left或是root.right，大概是照這個概念一直走下去，直到可以把值插入為止
 ```Python
 class TreeNode(object):
     def __init__(self,x):
