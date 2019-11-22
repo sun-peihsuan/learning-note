@@ -218,6 +218,7 @@ Delete的概念是，先找到想刪除的節點a，再看那個節點有沒有�
 有兩個子節點時
 ![image](https://github.com/sun-peihsuan/learning-note/blob/master/image/delete-2.JPG)
 -----Modify-----
+![image](https://github.com/sun-peihsuan/learning-note/blob/master/image/%E7%B0%A1%E5%A0%B11.jpg)
 
 參考網址1:https://www.geeksforgeeks.org/binary-search-tree-set-1-search-and-insertion/
 
