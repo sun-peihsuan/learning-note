@@ -145,8 +145,12 @@ Delete的概念是，先找到想刪除的節點a，再看那個節點有沒有�
 -----Search-----
 ![image](https://github.com/sun-peihsuan/learning-note/blob/master/image/search.JPG)
 -----Delete-----
+
+沒有子節點時
 ![image](https://github.com/sun-peihsuan/learning-note/blob/master/image/delete-0.JPG)
+有一個子節點時
 ![image](https://github.com/sun-peihsuan/learning-note/blob/master/image/delete-1.JPG)
+有兩個子節點時
 ![image](https://github.com/sun-peihsuan/learning-note/blob/master/image/delete-2.JPG)
 -----Modify-----
 
