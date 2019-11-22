@@ -23,8 +23,25 @@ class Solution(object):
                 else:
                     return self.insert(root.right,val)
             
-    def delete(self, root, target):
-        
+   def delete(self, root, target):
+        a=self.search(root,target)
+        if a.left is None and a.right is None:
+            a=None
+            return a
+        if a.left is not None and a.right is None:
+            a=a.left
+            return a
+        if a.left is None and a.right is not None:
+            a=a.right
+            return a
+        if a.left is not None and a.right is not None:
+            b=a
+            c=a.left
+            while c.right:
+                b=c
+                c=c.right
+            a.val=c.val
+            return a   
    def search(self, root, target):
         if target is None :
             return None
