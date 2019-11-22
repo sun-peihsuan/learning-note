@@ -65,3 +65,8 @@ class Solution(object):
                 return self.search(root.right,target)
         
     def modify(self, root, target, new_val):
+        a=self.search(root,target)
+        a.val=new_val
+        
+        
+        
