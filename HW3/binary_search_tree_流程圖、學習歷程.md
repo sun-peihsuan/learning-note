@@ -140,6 +140,15 @@ Delete的概念是，先找到想刪除的節點a，再看那個節點有沒有�
 把指定修改的數字的節點刪除並加入指定的值，並且不能改變原本的高度。
 
 ----------------------------------------------------------流程圖------------------------------------------------------------
+-----Insert-----
+![image](https://github.com/sun-peihsuan/learning-note/blob/master/image/insert.JPG)
+-----Search-----
+![image](https://github.com/sun-peihsuan/learning-note/blob/master/image/search.JPG)
+-----Delete-----
+![image](https://github.com/sun-peihsuan/learning-note/blob/master/image/delete-0.JPG)
+![image](https://github.com/sun-peihsuan/learning-note/blob/master/image/delete-1.JPG)
+![image](https://github.com/sun-peihsuan/learning-note/blob/master/image/delete-2.JPG)
+-----Modify-----
 
 參考網址1:https://www.geeksforgeeks.org/binary-search-tree-set-1-search-and-insertion/
 
