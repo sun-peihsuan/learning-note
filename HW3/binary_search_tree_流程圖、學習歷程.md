@@ -137,6 +137,67 @@ Delete的概念是，先找到想刪除的節點a，再看那個節點有沒有�
 
 但後來想了一下，若是a1之後還有子節點，我沒辦法將剩下的一起往上提，原本a1的位置未出現None或是a1的值，到不如直接往a1之後的最右邊節點，取代a的位置，這樣就不會出錯了，不過好像就是網路上其他人的想法。
 
+```Python
+ def delete(self, root, target):
+        if root is None:
+            return None
+        if target==root.val:
+            if root.left is None and root.right is None:
+                del root
+                return None
+            if root.left is not None and root.right is None:
+                del root
+                root.val=root.left.val
+
+```
+這是一開始的想法，原本是想說若是root跟target一樣時，看他子節點有沒有存在，照上面的想法去寫，但是需要設計的條件太多，容易有錯誤，所以重新調整方向。
+```Python
+ def delete(self, root, target):
+        a=self.search(root,target)
+        if a.left is None and a.right is None:
+            a=None
+            return a
+```
+直接用search找出target的位置，在target沒有節點的情況下直接回傳None。
+```Python
+ def delete(self, root, target):
+        ...
+        if a.left is not None and a.right is None:
+            a=a.left
+            return a
+        if a.left is None and a.right is not None:
+            a=a.right
+            return a
+```
+若是有一個子節點時，將子節點取代target的位置
+```Python
+ def delete(self, root, target):
+        ...
+        if a.left is not None and a.right is not None:
+            b=a
+            c=a.left
+            while c.right:
+                b=c
+                c=c.right
+            a.val=c.val
+            return a
+```
+當有兩個子節點時，以targrt左邊子節點的子節點中最右邊的節點，取代target的位置。
+但是會一直回傳target的左邊子節點，改成
+```Python
+ def delete(self, root, target):
+        ...
+        if a.left is not None and a.right is not None:
+            b=a
+            c=a.left
+            while c.right:
+                b=c
+                c=c.right
+                a.val=c.val     ##1
+                c.val=None              ##3
+                return a        ##2
+```
+將"##1"和"##2"退一格到while裡面，並增加"##3"
 -----Modify-----
 
 把指定修改的數字的節點刪除並加入指定的值，並且不能改變原本的高度。
