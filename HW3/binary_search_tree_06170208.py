@@ -23,7 +23,7 @@ class Solution(object):
                 else:
                     return self.insert(root.right,val)
             
-   def delete(self, root, target):
+    def delete(self, root, target):
         a=self.search(root,target)
         if a.left is None and a.right is None:
             a=None
@@ -43,7 +43,8 @@ class Solution(object):
                 a.val=c.val
                 c.val=None
                 return a
-   def search(self, root, target):
+            
+    def search(self, root, target):
         if target is None :
             return None
         if target==root.val:
