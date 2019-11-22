@@ -10,7 +10,7 @@ class Solution(object):
             root.val=TreeNode(val)
             return root.val
         else:
-            if val < root.val:
+            if val <= root.val:
                 if root.left is None:
                     root.left=TreeNode(val)
                     return root.left
