@@ -40,8 +40,9 @@ class Solution(object):
             while c.right:
                 b=c
                 c=c.right
-            a.val=c.val
-            return a   
+                a.val=c.val
+                c.val=None
+                return a
    def search(self, root, target):
         if target is None :
             return None
