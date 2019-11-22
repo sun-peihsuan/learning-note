@@ -111,14 +111,14 @@ def search(self, root, target):
                 return None
             if root.left.val==target:
                 return root.left
-            if root.left.val>target or root.left<target:            ##1
+            if root.left.val>target or root.left.val<target:            ##1
                 return self.search(root.left,target)
         if target>root.val:
             if root.right is None:
                 return None
             if root.right.val==target:
                 return root.right
-            if root.right.val>target or root.right<target:          ##2
+            if root.right.val>target or root.right.val<target:          ##2
                 return self.search(root.right,target)
 ```
 後來改成這樣，一樣因為root、root.left或是root.right都是節點，沒辦法比較，所以都在後面加了".val"
