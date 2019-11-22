@@ -84,6 +84,7 @@ class Solution(object):
 那又因為作業規定若是又相同的值一律往左邊走，在"##4"的地方改成"<="
 
 -----Search-----
+
 Search的概念是，將要尋找的值跟root做比較，一樣就是root，不一樣的時候，比大小，比較大往右邊找，比較小往左邊找，一直用這個方式去尋找
 ```Python
 def search(self, root, target):
@@ -118,9 +119,11 @@ def search(self, root, target):
             if root.right.val>target or root.right<target:          ##2
                 return self.search(root.right,target)
 ```
-這是後來改的，一樣因為root、root.left或是root.right都是節點，沒辦法比較，所以都在後面加了".val"
+後來改成這樣，一樣因為root、root.left或是root.right都是節點，沒辦法比較，所以都在後面加了".val"
 
 還有，因為是上面的程式碼只有跑一次，那麼root.left或是root.right之後的子節點沒有被搜尋到，所以增加了"##1"和"##2"兩個條件
+
+並且因為回傳target是否有沒有找到並不符合作業要求，所以改成回傳找到得target的位置，若是沒有找到就回傳root
 
 -----Delet-----
 
@@ -128,6 +131,8 @@ def search(self, root, target):
 
 ----------------------------------------------------------流程圖------------------------------------------------------------
 
-參考網址:https://www.geeksforgeeks.org/binary-search-tree-set-1-search-and-insertion/
+參考網址1:https://www.geeksforgeeks.org/binary-search-tree-set-1-search-and-insertion/
+
+參考網址:2https://www.laurentluce.com/posts/binary-search-tree-library-in-python/
 
 
