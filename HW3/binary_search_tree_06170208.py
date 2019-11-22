@@ -25,7 +25,7 @@ class Solution(object):
             
     def delete(self, root, target):
         
-    def search(self, root, target):
+   def search(self, root, target):
         if target is None :
             return None
         if target==root.val:
@@ -35,14 +35,14 @@ class Solution(object):
                 return None
             if root.left.val==target:
                 return root.left
-            if root.left.val>target or root.left<target:            
+            if root.left.val>target or root.left.val<target:            
                 return self.search(root.left,target)
         if target>root.val:
             if root.right is None:
                 return None
             if root.right.val==target:
                 return root.right
-            if root.right.val>target or root.right<target:          
+            if root.right.val>target or root.right.val<target:          
                 return self.search(root.right,target)
         
     def modify(self, root, target, new_val):
