@@ -101,19 +101,21 @@ def search(self, root, target):
 ```
 這是一開始聽完老師講解後，再參考網路上的資料寫出來的，但為了要符合格式，要做調整，而且測試的方式是要看找到的值有沒有符合位置
 ```Python
-  def search(self, root, target):
-        if target is None or target==root.val:
+def search(self, root, target):
+        if target is None :
+            return None
+        if target==root.val:
             return root
         if target<root.val:
             if root.left is None:
-                return root
+                return None
             if root.left.val==target:
                 return root.left
             if root.left.val>target or root.left<target:            ##1
                 return self.search(root.left,target)
         if target>root.val:
             if root.right is None:
-                return root
+                return None
             if root.right.val==target:
                 return root.right
             if root.right.val>target or root.right<target:          ##2
@@ -123,7 +125,7 @@ def search(self, root, target):
 
 還有，因為是上面的程式碼只有跑一次，那麼root.left或是root.right之後的子節點沒有被搜尋到，所以增加了"##1"和"##2"兩個條件
 
-並且因為回傳target是否有沒有找到並不符合作業要求，所以改成回傳找到得target的位置，若是沒有找到就回傳root
+並且因為回傳target是否有沒有找到並不符合作業要求，所以改成回傳找到得target的位置，若是沒有找到就回傳None
 
 -----Delete-----
 
