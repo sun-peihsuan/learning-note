@@ -92,7 +92,7 @@ def remove(self, key):
             if c.next.val!=h:
                 c=c.next
 ```
-不過依舊和add還有contains依樣，不管怎麼移除，都無法移除指定值。
+不過依舊和add還有contains一樣，不管怎麼移除，都無法移除指定值。
 
 後來發現是重複了上述的錯誤，在複製轉碼的過程中，將key包括在雙引號裡面，導致不管怎麼查找，都不會是key，所以也就不會將key刪掉。
 
