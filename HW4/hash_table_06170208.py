@@ -30,7 +30,6 @@ class MyHashSet:
         x=int(h,16)
         y=x%self.capacity
         node=self.data[y]
-        print(y)
         
         c=self.data[y]        
         
@@ -39,12 +38,9 @@ class MyHashSet:
                 self.data[y]=None
           
         while c.next:
-            print(5)
             if c.next.val==h:
-                print(2)
                 c.next = c.next.next
             if c.next.val!=h:
-                print(3)
                 c=c.next
 
     
