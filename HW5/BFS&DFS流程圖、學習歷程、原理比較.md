@@ -25,7 +25,7 @@ while a==True:
 
 ![image](https://github.com/sun-peihsuan/learning-note/blob/master/image/ERROR.jpg)
 
-增加Q不為空值這個條件後
+增加Q的長度不為空值這個條件後
 ```Python 
 a=False in check
 while a==True and len(Q)!=0:
