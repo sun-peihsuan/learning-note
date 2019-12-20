@@ -10,6 +10,19 @@
 
 不過不知道為什麼，只有回傳一個值，後來還是用網路上搜到的方式寫。
 
+之後因為不死心，再試了一次
+
+```Python
+while Q:                =>                      while False in check:
+```
+不過還是一樣，後來將False in check令成a，放在while外面
+
+```Python
+a=False in check
+while a==True:
+```
+這樣之後就可以了。
+
 在DFS的部分，我是直接用BFS的程式碼做更改，因為他們的差別就只是在Stack跟Queue，一個是先進先出，一個是先進後出
 
 不過第一次在做更改的時候，只有改
