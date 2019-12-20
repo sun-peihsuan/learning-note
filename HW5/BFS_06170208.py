@@ -36,12 +36,17 @@ class Graph:
         S.append(s)
         check[s]=True
     
-        while S:
+        while check.count(False)>0:
             s=S.pop(-1)
             for i in self.graph[s]:
                 if check[i] ==False:
                     S.append(i)
                     check[i]=True
             p1.append(s)
+            if check.count(False)==0:
+                s=S.pop(-1)
+                p1.append(s)
             
         return p1
+
+        
