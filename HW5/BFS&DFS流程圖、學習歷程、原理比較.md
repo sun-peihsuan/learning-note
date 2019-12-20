@@ -25,7 +25,14 @@ while a==True:
 
 ![image](https://github.com/sun-peihsuan/learning-note/blob/master/image/ERROR.jpg)
 
-所以最後決定還是使用參考網址的方式。
+增加Q不為空值這個條件後
+```Python 
+a=False in check
+while a==True and len(Q)!=0:
+```
+就可以了。
+
+但是我不明白為什麼明明再跑出上面的ERROR前就會結束的。
 
 在DFS的部分，我是直接用BFS的程式碼做更改，因為他們的差別就只是在Stack跟Queue，一個是先進先出，一個是先進後出
 
