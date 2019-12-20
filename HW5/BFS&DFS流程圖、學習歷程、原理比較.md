@@ -30,9 +30,13 @@ while a==True:
 a=False in check
 while a==True and len(Q)!=0:
 ```
-就可以了。
+也不行。
 
-但是我不明白為什麼明明再跑出上面的ERROR前就會結束的。
+後來改成
+ ```Python
+ while check.count(False)>0:
+ ```
+BFS就可以成功。
 
 在DFS的部分，我是直接用BFS的程式碼做更改，因為他們的差別就只是在Stack跟Queue，一個是先進先出，一個是先進後出
 
@@ -42,6 +46,7 @@ s=Q.pop(0)    =>    s=Q.pop(-1)
 ```
 沒有改到p的部分，導致出來的答案跟BFS一模一樣。
 
+ 
 剛開始還不知道是怎麼回事，後來檢查時才發現，在BFS時，是直接在for迴圈裡面append進去p
 ```Python
 while Q:
