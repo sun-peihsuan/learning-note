@@ -21,7 +21,11 @@ while Q:                =>                      while False in check:
 a=False in check
 while a==True:
 ```
-這樣之後就可以了。
+本來以為可以了，但是又跑出
+
+![image](https://github.com/sun-peihsuan/learning-note/blob/master/image/ERROR.jpg)
+
+所以最後決定還是使用參考網址的方式。
 
 在DFS的部分，我是直接用BFS的程式碼做更改，因為他們的差別就只是在Stack跟Queue，一個是先進先出，一個是先進後出
 
@@ -60,11 +64,11 @@ while S:
 
 --------------------------------------------------BFS流程圖-----------------------------------------------------------------------
 
-![image](https://github.com/sun-peihsuan/learning-note/blob/master/image/HW5-BFS.JPG)
+![image](https://github.com/sun-peihsuan/learning-note/blob/master/image/BFS.JPG)
 
 --------------------------------------------------DFS流程圖-----------------------------------------------------------------------
 
-![image](https://github.com/sun-peihsuan/learning-note/blob/master/image/HW5-DFS.JPG)
+![image](https://github.com/sun-peihsuan/learning-note/blob/master/image/DFS.JPG)
 
 --------------------------------------------------原理、比較-----------------------------------------------------------------------
 
