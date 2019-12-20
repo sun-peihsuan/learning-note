@@ -16,9 +16,8 @@ class Graph:
         Q.append(s)
         p.append(s)
         check[s]=True
-        
-        a=False in check
-        while a==True and len(Q)!=0:
+    
+        while check.count(False)>0:
             s=Q.pop(0)
             for i in self.graph[s]:
                 if check[i] ==False:
@@ -27,9 +26,8 @@ class Graph:
                     check[i]=True
             
         return p
-    
-
         
+    
     def DFS(self, s):
         n1=len(self.graph)
         check=[False]*n1
@@ -37,9 +35,8 @@ class Graph:
         p1=[]
         S.append(s)
         check[s]=True
-        
-        a=False in check
-        while a==True and len(S)!=0:
+    
+        while S:
             s=S.pop(-1)
             for i in self.graph[s]:
                 if check[i] ==False:
@@ -48,6 +45,3 @@ class Graph:
             p1.append(s)
             
         return p1
-            
-    
-        
