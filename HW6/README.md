@@ -7,6 +7,7 @@
     更常見的方式是，固定了一個頂點作為原節點然後找到該頂點到圖中所有其它節點的最短路徑，產生一個最短路徑樹。
   
   ## <流程圖>
+  
     ![image](https://github.com/sun-peihsuan/learning-note/blob/master/image/%E6%8A%95%E5%BD%B1%E7%89%871.JPG)
     
 # Kruskal
@@ -19,5 +20,6 @@
     4.重複3，直至新的圖中所有的節點都連在一起
   
   ##　<流程圖>
+  
   ![image](https://github.com/sun-peihsuan/learning-note/blob/master/image/hw6-K.jpg)
   
