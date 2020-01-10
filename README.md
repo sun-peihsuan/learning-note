@@ -26,40 +26,30 @@ WEEK 4	  [Insertion sort(插入排序作法)](https://github.com/sun-peihsuan/le
 	插入時由右而左比較，直到遇到第一個比正處理的值小的值，再插入
 	比較時，若遇到的值比正處理的值大或相等，則將值往右移
 
-WEEK 5	   國慶放假
-	
-	[HW1	  Quicksort](https://github.com/sun-peihsuan/learning-note/tree/master/HW1)
+WEEK 5	   國慶放假[HW1	  Quicksort](https://github.com/sun-peihsuan/learning-note/tree/master/HW1)
 
 WEEK 6	   Quick sort & Heap sort
 
 	Min heap 最頂端的root要是最小的
 	Max heap 最頂端的root要是最大的
 	
-WEEK 7	   Merge sort
-	
-	[HW3	  Heap sort](https://github.com/sun-peihsuan/learning-note/tree/master/HW2)
+WEEK 7	   Merge sort[HW2	  Heap sort](https://github.com/sun-peihsuan/learning-note/tree/master/HW2)
 
 WEEK 8     Binary Tree
 
-	[HW3      Binary search tree](https://github.com/sun-peihsuan/learning-note/tree/master/HW3)
-
-WEEK 9	   Binary Search Tree
-           
-	[HW2  Heapsort & Mergesort](https://github.com/sun-peihsuan/learning-note/tree/master/HW2)
+WEEK 9	   Binary Search Tree[HW3      Binary search tree](https://github.com/sun-peihsuan/learning-note/tree/master/HW3)
 
 WEEK 10    Red Black Tree
 
-WEEK 11    Hash Table
-
-	[HW]
+WEEK 11    Hash Table[HW4  Hash_table](https://github.com/sun-peihsuan/learning-note/tree/master/HW4)
 
 WEEK 12    Breadth-First Search
 
-WEEK 13    Depth-First Search
+WEEK 13    Depth-First Search[HW5  BFS&DFS](https://github.com/sun-peihsuan/learning-note/tree/master/HW5)
 
 WEEK 14    Minimum Spanning Tree
 
-WEEK 15    Shortest Path
+WEEK 15    Shortest Path[HW6  Dijkstra&Kruskal](https://github.com/sun-peihsuan/learning-note/tree/master/HW6)
 
 WEEK 16    考前複習
 
