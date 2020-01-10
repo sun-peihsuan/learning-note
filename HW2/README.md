@@ -1,4 +1,4 @@
-#　Heap sort 
+# Heap sort 
 
 ## <原理>
 若以升序排序說明，把陣列轉換成Max-Heap Heap
@@ -10,7 +10,7 @@
 ## <流程圖>
 ![image](https://github.com/sun-peihsuan/learning-note/raw/master/image/heap%20sort.jpg)
 
-#　Merge sort
+# Merge sort
 
 ## <原理>
 
