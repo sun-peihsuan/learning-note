@@ -1,4 +1,4 @@
-Dijkstra
+# Dijkstra
 
   <原理>
   
@@ -9,7 +9,7 @@ Dijkstra
   <流程圖>
     ![image](https://github.com/sun-peihsuan/learning-note/blob/master/image/%E6%8A%95%E5%BD%B1%E7%89%871.JPG)
     
-Kruskal
+# Kruskal
 
   <步驟>
   
