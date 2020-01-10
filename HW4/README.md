@@ -1,6 +1,6 @@
 # Hash_table
 
-<原理>
+## <原理>
 
    是根據Key而直接查詢在內存存儲位置的資料結構
 
@@ -8,7 +8,7 @@
 
    這個映射函數稱做Hash fuction，存放記錄的數組稱做Hash table。
 
-<流程圖>
+## <流程圖>
 
 **---新增---**
 ![image](https://github.com/sun-peihsuan/learning-note/raw/master/image/%E6%8A%95%E5%BD%B1%E7%89%871.JPG)
